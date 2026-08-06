@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuoiD'Neuf Villars — ce qui est utile autour de vous</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: system-ui, sans-serif; line-height: 1.6;
+    max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem;
+  }
+  h1 { line-height: 1.2; }
+  .cta {
+    display: inline-block; padding: .75rem 1.25rem; border-radius: .5rem;
+    border: 2px solid currentColor; text-decoration: none; font-weight: 700;
+  }
+  .notice {
+    margin-top: 1.5rem; padding: .75rem 1rem; border-left: 4px solid currentColor;
+    background: #8881; font-size: .95rem;
+  }
+  footer { margin-top: 3rem; font-size: .9rem; opacity: .8; }
+  table { border-collapse: collapse; width: 100%; }
+  td, th { text-align: left; padding: .35rem .5rem; border-bottom: 1px solid #8884; }
+</style>
+</head>
+<body>
+  <h1>QuoiD'Neuf Villars</h1>
+  <p>
+    Les services utiles de <strong>Villars-les-Dombes</strong> — santé et
+    services publics — dans une application qui fonctionne
+    <strong>hors ligne</strong> et ne demande aucun compte.
+  </p>
+
+  <p><a class="cta" href="https://github.com/exec-d/quoidneuf-01330/releases/latest">Télécharger l'application Android</a></p>
+
+  <p class="notice">
+    Application <strong>non officielle</strong>, sans lien avec la mairie de
+    Villars-les-Dombes. Elle affiche notamment des horaires de mairie, mais
+    la mairie n'en est pas l'éditrice : en cas de doute sur une information,
+    vérifiez-la auprès du service concerné.
+  </p>
+
+  <h2>Ce qu'elle contient</h2>
+  <table>
+    <tr><th>Santé</th><td>Médecins, pharmacies, hôpitaux, EHPAD, centres de santé, défibrillateurs</td></tr>
+    <tr><th>Services publics</th><td>Mairie, bureaux de poste, France services, gendarmerie, pompiers, bibliothèques</td></tr>
+  </table>
+
+  <h2>D'où viennent les données</h2>
+  <p>
+    Uniquement de l'Open Data national : FINESS et l'Annuaire Santé (Agence du
+    Numérique en Santé), Géo'DAE, l'Annuaire de l'administration (DILA), le
+    réseau La Poste et OpenStreetMap. Elles sont réextraites chaque jour et
+    publiées ici même, commit par commit.
+  </p>
+
+  <footer>
+    <p>
+      Données sous <a href="https://www.etalab.gouv.fr/licence-ouverte-open-licence/">Licence Ouverte 2.0</a>
+      et <a href="https://opendatacommons.org/licenses/odbl/">ODbL 1.0</a> —
+      © les contributeurs <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.
+      Détail dans <a href="https://github.com/exec-d/quoidneuf-01330/blob/main/DATA-LICENSE.md">DATA-LICENSE.md</a>.
+    </p>
+    <p><strong>Application non officielle, sans lien avec la mairie de Villars-les-Dombes.</strong></p>
+  </footer>
+</body>
+</html>

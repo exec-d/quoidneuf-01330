@@ -22,7 +22,7 @@ qui ne change rien ne produit aucun commit.
 ## Sources et licences
 
 Les données proviennent de FINESS et de l'Annuaire Santé (Agence du Numérique en Santé), de Géo'DAE,
-de l'Annuaire de l'administration (DILA) et d'OpenStreetMap.
+de l'Annuaire de l'administration (DILA), du réseau La Poste et d'OpenStreetMap.
 
 Voir `DATA-LICENSE.md` pour les mentions jeu par jeu — **Licence Ouverte 2.0** pour les sources
 publiques françaises, **ODbL 1.0** pour les fichiers incorporant des éléments d'OpenStreetMap.
@@ -30,4 +30,8 @@ publiques françaises, **ODbL 1.0** pour les fichiers incorporant des éléments
 ## L'application
 
 Le moteur et le pipeline d'extraction vivent dans un dépôt séparé. L'application est distribuée en
-APK Android signé via les *Releases* de ce dépôt.
+APK Android signé via les *Releases* de ce dépôt ; `app/latest.json` est le manifeste que lit
+l'application pour se proposer une mise à jour.
+
+Page de présentation : <https://exec-d.github.io/quoidneuf-01330/>. Application non officielle,
+sans lien avec la mairie de Villars-les-Dombes.
