@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "module": "public_services",
+  "categories": [
+    {
+      "id": "city_hall",
+      "label": "Mairie",
+      "count": 1,
+      "nearest": null
+    },
+    {
+      "id": "post_office",
+      "label": "Bureaux de poste",
+      "count": 2,
+      "nearest": null
+    },
+    {
+      "id": "france_services",
+      "label": "France services",
+      "count": 1,
+      "nearest": null
+    },
+    {
+      "id": "gendarmerie",
+      "label": "Gendarmerie",
+      "count": 1,
+      "nearest": null
+    },
+    {
+      "id": "fire_station",
+      "label": "Pompiers",
+      "count": 1,
+      "nearest": null
+    },
+    {
+      "id": "library",
+      "label": "Bibliothèques",
+      "count": 1,
+      "nearest": null
+    }
+  ],
+  "places": [
+    {
+      "id": "dila:278a8c30-df76-4d69-8eb9-ccec0d00d815",
+      "category": "city_hall",
+      "name": "Mairie - Villars-les-Dombes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.001423,
+        "lon": 5.029824
+      },
+      "distance_m": 3,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "15 place de l'Hôtel-de-Ville, 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980354",
+        "email": "mairie@mairie-villars-les-dombes.org",
+        "website": "http://www.villars-les-dombes.fr"
+      },
+      "opening_hours": {
+        "weekly": [
+          {
+            "day": 1,
+            "ranges": [
+              [
+                "08:30",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "17:00"
+              ]
+            ]
+          },
+          {
+            "day": 2,
+            "ranges": [
+              [
+                "08:30",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "17:00"
+              ]
+            ]
+          },
+          {
+            "day": 3,
+            "ranges": [
+              [
+                "08:30",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "17:00"
+              ]
+            ]
+          },
+          {
+            "day": 4,
+            "ranges": [
+              [
+                "08:30",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "17:00"
+              ]
+            ]
+          },
+          {
+            "day": 5,
+            "ranges": [
+              [
+                "08:30",
+                "12:00"
+              ],
+              [
+                "14:00",
+                "17:00"
+              ]
+            ]
+          },
+          {
+            "day": 6,
+            "ranges": [
+              [
+                "08:30",
+                "12:00"
+              ]
+            ]
+          }
+        ],
+        "raw": null,
+        "source": "dila"
+      },
+      "details": [],
+      "sources": [
+        "dila:278a8c30-df76-4d69-8eb9-ccec0d00d815",
+        "osm:node/2891435088"
+      ],
+      "updated_at": "2025-03-06"
+    },
+    {
+      "id": "osm:node/2742452680",
+      "category": "library",
+      "name": "Médiathèque municipale",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.002737,
+        "lon": 5.031009
+      },
+      "distance_m": 176,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "51 Passage Jean Ferrat, 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": {
+        "weekly": [
+          {
+            "day": 2,
+            "ranges": [
+              [
+                "09:30",
+                "12:00"
+              ],
+              [
+                "16:30",
+                "19:00"
+              ]
+            ]
+          },
+          {
+            "day": 3,
+            "ranges": [
+              [
+                "09:30",
+                "12:00"
+              ],
+              [
+                "13:00",
+                "18:00"
+              ]
+            ]
+          },
+          {
+            "day": 5,
+            "ranges": [
+              [
+                "16:30",
+                "19:00"
+              ]
+            ]
+          },
+          {
+            "day": 6,
+            "ranges": [
+              [
+                "09:00",
+                "12:00"
+              ]
+            ]
+          }
+        ],
+        "raw": "Tu 09:30-12:00,16:30-19:00; We 09:30-12:00,13:00-18:00; Fr 16:30-19:00; Sa 09:00-12:00",
+        "source": "osm"
+      },
+      "details": [],
+      "sources": [
+        "osm:node/2742452680"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "osm:way/218180990",
+      "category": "fire_station",
+      "name": "Centre d'incendie et de secours de Villars-les-Dombes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.000495,
+        "lon": 5.02749
+      },
+      "distance_m": 205,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": null,
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [],
+      "sources": [
+        "osm:way/218180990"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "laposte:16668D",
+      "category": "post_office",
+      "name": "VILLARS LES DOMBES AP",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0028,
+        "lon": 5.0319
+      },
+      "distance_m": 225,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "25 PLACE DE L HOTEL DE VILLE, 01330 VILLARS LES DOMBES"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Type de point de contact",
+          "value": "Agence postale communale"
+        }
+      ],
+      "sources": [
+        "laposte:16668D"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "dila:bd0ad4ac-6c03-4bf0-9c91-1a1ff029ddc0",
+      "category": "gendarmerie",
+      "name": "Brigade de gendarmerie - Villars-les-Dombes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 45.99653,
+        "lon": 5.02816
+      },
+      "distance_m": 556,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "1145 avenue Charles de Gaulle, 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980217",
+        "email": null,
+        "website": "https://www.gendarmerie.interieur.gouv.fr"
+      },
+      "opening_hours": null,
+      "details": [],
+      "sources": [
+        "dila:bd0ad4ac-6c03-4bf0-9c91-1a1ff029ddc0"
+      ],
+      "updated_at": "2024-10-24"
+    },
+    {
+      "id": "dila:cf7dbac0-6999-4f49-bc5e-b2f513887f23",
+      "category": "france_services",
+      "name": "France services - Villars-les-Dombes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.005032,
+        "lon": 5.041078
+      },
+      "distance_m": 960,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "673 rue Pierre Poivre, ZAC de la Tuilerie, 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474559823",
+        "email": "franceservices.villars@ccdombes.fr",
+        "website": "https://www.france-services.gouv.fr/"
+      },
+      "opening_hours": {
+        "weekly": [
+          {
+            "day": 1,
+            "ranges": [
+              [
+                "09:00",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "19:00"
+              ]
+            ]
+          },
+          {
+            "day": 2,
+            "ranges": [
+              [
+                "08:30",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "17:30"
+              ]
+            ]
+          },
+          {
+            "day": 3,
+            "ranges": [
+              [
+                "08:30",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "15:30"
+              ]
+            ]
+          },
+          {
+            "day": 4,
+            "ranges": [
+              [
+                "08:30",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "17:30"
+              ]
+            ]
+          },
+          {
+            "day": 5,
+            "ranges": [
+              [
+                "08:30",
+                "12:30"
+              ],
+              [
+                "13:30",
+                "17:00"
+              ]
+            ]
+          }
+        ],
+        "raw": null,
+        "source": "dila"
+      },
+      "details": [],
+      "sources": [
+        "dila:cf7dbac0-6999-4f49-bc5e-b2f513887f23"
+      ],
+      "updated_at": "2026-08-05"
+    },
+    {
+      "id": "osm:node/8685651510",
+      "category": "post_office",
+      "name": "Relais Poste",
+      "relation": "in_commune",
+      "position": {
+        "lat": 45.9922,
+        "lon": 5.026772
+      },
+      "distance_m": 1049,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": null,
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [],
+      "sources": [
+        "osm:node/8685651510"
+      ],
+      "updated_at": null
+    }
+  ]
+}

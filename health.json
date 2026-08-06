@@ -1,0 +1,1849 @@
+{
+  "schema_version": 1,
+  "module": "health",
+  "categories": [
+    {
+      "id": "doctor",
+      "label": "Médecins",
+      "count": 12,
+      "nearest": null
+    },
+    {
+      "id": "pharmacy",
+      "label": "Pharmacies",
+      "count": 2,
+      "nearest": null
+    },
+    {
+      "id": "hospital",
+      "label": "Hôpitaux",
+      "count": 0,
+      "nearest": {
+        "distance_m": 16514,
+        "commune": "MEXIMIEUX"
+      }
+    },
+    {
+      "id": "nursing_home",
+      "label": "EHPAD",
+      "count": 2,
+      "nearest": null
+    },
+    {
+      "id": "health_center",
+      "label": "Centres de santé",
+      "count": 0,
+      "nearest": {
+        "distance_m": 16816,
+        "commune": "MONTLUEL"
+      }
+    },
+    {
+      "id": "defibrillator",
+      "label": "Défibrillateurs",
+      "count": 23,
+      "nearest": null
+    }
+  ],
+  "places": [
+    {
+      "id": "geodae:399995",
+      "category": "defibrillator",
+      "name": "fred PA-1",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.00146,
+        "lon": 5.029312
+      },
+      "distance_m": 38,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "3 Place de l'Hôtel de Ville 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi, mardi, mercredi, jeudi, vendredi"
+        }
+      ],
+      "sources": [
+        "geodae:399995"
+      ],
+      "updated_at": "2026-04-16"
+    },
+    {
+      "id": "geodae:4733",
+      "category": "defibrillator",
+      "name": "C023716 - Ecole élémentaire",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0012,
+        "lon": 5.02902
+      },
+      "distance_m": 64,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "37 place de Verdun 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Extérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "à l'extérieur"
+        }
+      ],
+      "sources": [
+        "geodae:4733"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "finess:010006070",
+      "category": "pharmacy",
+      "name": "PHARMACIE DE LA DOMBES",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.000519,
+        "lon": 5.029683
+      },
+      "distance_m": 98,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "76 Rue Gilbert Boullier, 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980087",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "PHARMACIE DERUAZ"
+        }
+      ],
+      "sources": [
+        "finess:010006070",
+        "osm:node/7348261563"
+      ],
+      "updated_at": "2026-07-16"
+    },
+    {
+      "id": "geodae:140866",
+      "category": "defibrillator",
+      "name": "ADAPEI DE L'AIN - SESSAD De la Dombes - 42 rue Laveran - Accueil",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.000996,
+        "lon": 5.031095
+      },
+      "distance_m": 110,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "42 rue Laveran 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "Accueil - L 13h/16h , Me + J 8h30/12h 13h/16h"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi, mercredi, jeudi"
+        }
+      ],
+      "sources": [
+        "geodae:140866"
+      ],
+      "updated_at": "2026-02-05"
+    },
+    {
+      "id": "geodae:154010",
+      "category": "defibrillator",
+      "name": "DAE-chambre de l'Agriculture",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0009,
+        "lon": 5.03137
+      },
+      "distance_m": 133,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "42 Rue Lavéran 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "Face à la porte d'entrée"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi, mardi, mercredi, jeudi, vendredi"
+        }
+      ],
+      "sources": [
+        "geodae:154010"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "geodae:4737",
+      "category": "defibrillator",
+      "name": "C023757 - Annexe IME Le Prelion - SESSAD DE la Dom",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0013,
+        "lon": 5.03166
+      },
+      "distance_m": 144,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "20 RUE LAVERAN 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "à l'intérieur"
+        }
+      ],
+      "sources": [
+        "geodae:4737"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "geodae:236036",
+      "category": "defibrillator",
+      "name": "DEFIBRILLATEUR AUTOMATIQUE",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0019,
+        "lon": 5.0279
+      },
+      "distance_m": 157,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "141 118 impasse les jardins 01330 Villars les Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "Dans le hangar"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi, mardi, mercredi, jeudi, vendredi"
+        }
+      ],
+      "sources": [
+        "geodae:236036"
+      ],
+      "updated_at": "2023-09-02"
+    },
+    {
+      "id": "geodae:399994",
+      "category": "defibrillator",
+      "name": "fred PA-1",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.001236,
+        "lon": 5.027706
+      },
+      "distance_m": 163,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi, mardi, mercredi, jeudi, vendredi"
+        }
+      ],
+      "sources": [
+        "geodae:399994"
+      ],
+      "updated_at": "2026-04-16"
+    },
+    {
+      "id": "geodae:4736",
+      "category": "defibrillator",
+      "name": "C023716 - Salle des fêtes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.001,
+        "lon": 5.02766
+      },
+      "distance_m": 171,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "61 rue Duperrier 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "à l'intérieur"
+        }
+      ],
+      "sources": [
+        "geodae:4736"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "geodae:399999",
+      "category": "defibrillator",
+      "name": "fred PA-1",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.002686,
+        "lon": 5.031203
+      },
+      "distance_m": 179,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Extérieur"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures de nuit, 24h/24"
+        },
+        {
+          "label": "Jours",
+          "value": "7j/7"
+        }
+      ],
+      "sources": [
+        "geodae:399999"
+      ],
+      "updated_at": "2026-04-16"
+    },
+    {
+      "id": "geodae:400002",
+      "category": "defibrillator",
+      "name": "fred PA-1",
+      "relation": "in_commune",
+      "position": {
+        "lat": 45.99977,
+        "lon": 5.029716
+      },
+      "distance_m": 181,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Extérieur"
+        },
+        {
+          "label": "Horaires",
+          "value": "24h/24"
+        },
+        {
+          "label": "Jours",
+          "value": "7j/7"
+        }
+      ],
+      "sources": [
+        "geodae:400002"
+      ],
+      "updated_at": "2026-04-16"
+    },
+    {
+      "id": "finess:010006054",
+      "category": "pharmacy",
+      "name": "GRANDE PHARMACIE DE VILLARS",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.002441,
+        "lon": 5.03164
+      },
+      "distance_m": 183,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "13 Avenue Gilbert Sardier, 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980791",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": {
+        "weekly": [
+          {
+            "day": 1,
+            "ranges": [
+              [
+                "08:15",
+                "12:15"
+              ],
+              [
+                "14:15",
+                "19:15"
+              ]
+            ]
+          },
+          {
+            "day": 2,
+            "ranges": [
+              [
+                "08:15",
+                "12:15"
+              ],
+              [
+                "14:15",
+                "19:15"
+              ]
+            ]
+          },
+          {
+            "day": 3,
+            "ranges": [
+              [
+                "08:15",
+                "12:15"
+              ],
+              [
+                "14:15",
+                "19:15"
+              ]
+            ]
+          },
+          {
+            "day": 4,
+            "ranges": [
+              [
+                "08:15",
+                "12:15"
+              ],
+              [
+                "14:15",
+                "19:15"
+              ]
+            ]
+          },
+          {
+            "day": 5,
+            "ranges": [
+              [
+                "08:15",
+                "12:15"
+              ],
+              [
+                "14:15",
+                "19:15"
+              ]
+            ]
+          },
+          {
+            "day": 6,
+            "ranges": [
+              [
+                "08:15",
+                "12:15"
+              ],
+              [
+                "14:15",
+                "19:15"
+              ]
+            ]
+          }
+        ],
+        "raw": "Mo-Sa 08:15-12:15,14:15-19:15",
+        "source": "osm"
+      },
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "PHARMACIE DOUCET - AVALLONE"
+        }
+      ],
+      "sources": [
+        "finess:010006054",
+        "osm:way/218180349",
+        "osm:way/307306873"
+      ],
+      "updated_at": "2026-07-16"
+    },
+    {
+      "id": "geodae:399997",
+      "category": "defibrillator",
+      "name": "fred PA-1",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.00041,
+        "lon": 5.027056
+      },
+      "distance_m": 239,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi, mardi, mercredi, jeudi, vendredi"
+        }
+      ],
+      "sources": [
+        "geodae:399997"
+      ],
+      "updated_at": "2026-04-16"
+    },
+    {
+      "id": "finess:010781037",
+      "category": "nursing_home",
+      "name": "EHPAD PUBLIC DE VILLARS-LES-DOMBES",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.001041,
+        "lon": 5.026458
+      },
+      "distance_m": 261,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "37 RUE IVAN AVOSCAN, 01330 VILLARS LES DOMBES"
+      },
+      "contact": {
+        "phone": "+33474980104",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "CENTRE HOSPITALIER DE TREVOUX - MONTPENSIER"
+        }
+      ],
+      "sources": [
+        "finess:010781037"
+      ],
+      "updated_at": "2023-11-21"
+    },
+    {
+      "id": "geodae:4734",
+      "category": "defibrillator",
+      "name": "C023716 - Gymnase",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0007,
+        "lon": 5.02603
+      },
+      "distance_m": 301,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "320 rue des Dombes 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "à l'intérieur"
+        }
+      ],
+      "sources": [
+        "geodae:4734"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "geodae:4735",
+      "category": "defibrillator",
+      "name": "C023716 - Hall des sports",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0007,
+        "lon": 5.02603
+      },
+      "distance_m": 301,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "320 rue des Dombes 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "à l'intérieur"
+        }
+      ],
+      "sources": [
+        "geodae:4735"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "geodae:4866",
+      "category": "defibrillator",
+      "name": "DAE de la mairie",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0007,
+        "lon": 5.02603
+      },
+      "distance_m": 301,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "320 rue des Dombes 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "Maison des sports a droite de la porte d'entrée en exterieur"
+        }
+      ],
+      "sources": [
+        "geodae:4866"
+      ],
+      "updated_at": "2023-12-28"
+    },
+    {
+      "id": "finess:010789758",
+      "category": "nursing_home",
+      "name": "EHPAD KORIAN LES FAUVETTES",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.002326,
+        "lon": 5.033515
+      },
+      "distance_m": 305,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "177 AVENUE GILBERT SARDIER, 01330 VILLARS LES DOMBES"
+      },
+      "contact": {
+        "phone": "+33474983030",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "SAS MEDICA FRANCE"
+        }
+      ],
+      "sources": [
+        "finess:010789758"
+      ],
+      "updated_at": "2017-04-21"
+    },
+    {
+      "id": "geodae:124389",
+      "category": "defibrillator",
+      "name": "DAE EHPAD VILLARS",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0012,
+        "lon": 5.02577
+      },
+      "distance_m": 312,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "225 Rue Just et Genevieve Berger 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Horaires",
+          "value": "24h/24"
+        },
+        {
+          "label": "Jours",
+          "value": "7j/7"
+        },
+        {
+          "label": "Étage",
+          "value": "1"
+        }
+      ],
+      "sources": [
+        "geodae:124389"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "geodae:254680",
+      "category": "defibrillator",
+      "name": "SNCF Gare de Villars les Dombes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0042,
+        "lon": 5.02841
+      },
+      "distance_m": 329,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "57 Rue des Acacias 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Extérieur"
+        },
+        {
+          "label": "Horaires",
+          "value": "24h/24"
+        },
+        {
+          "label": "Jours",
+          "value": "7j/7"
+        }
+      ],
+      "sources": [
+        "geodae:254680"
+      ],
+      "updated_at": "2025-08-04"
+    },
+    {
+      "id": "geodae:4793",
+      "category": "defibrillator",
+      "name": "DAE de l'ecole",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0008,
+        "lon": 5.02552
+      },
+      "distance_m": 337,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "278 278 Rue de Dombes 01330 Villars-les-Dombes 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Extérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "batiment cote eglise"
+        }
+      ],
+      "sources": [
+        "geodae:4793"
+      ],
+      "updated_at": "2023-12-28"
+    },
+    {
+      "id": "geodae:4916",
+      "category": "defibrillator",
+      "name": "DAe de la salle polyvalente",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0008,
+        "lon": 5.02552
+      },
+      "distance_m": 337,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "278 place de la resistance 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "dans le hall d'entrée à G"
+        }
+      ],
+      "sources": [
+        "geodae:4916"
+      ],
+      "updated_at": "2023-12-28"
+    },
+    {
+      "id": "osm:way/1335970219",
+      "category": "doctor",
+      "name": "Maison de Santé Cœur de Dombes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.003974,
+        "lon": 5.032607
+      },
+      "distance_m": 359,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "313 Avenue Charles de Gaulle, 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [],
+      "sources": [
+        "osm:way/1335970219"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "geodae:128277",
+      "category": "defibrillator",
+      "name": "C023342 - Foyer Le Villardois",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0059,
+        "lon": 5.02815
+      },
+      "distance_m": 516,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "118 IMPASSE DES JARDINS 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "au rez-de-chaussée du foyer d'hébergement"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi"
+        }
+      ],
+      "sources": [
+        "geodae:128277"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "geodae:4743",
+      "category": "defibrillator",
+      "name": "C026066 - ESAT Les Dombes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.0059,
+        "lon": 5.02815
+      },
+      "distance_m": 516,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "118 impasse des jardins 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "entrée de l'atelier (notée sur la porte) tout de suite à gauche, derrière la porte"
+        }
+      ],
+      "sources": [
+        "geodae:4743"
+      ],
+      "updated_at": "2023-04-11"
+    },
+    {
+      "id": "geodae:133388",
+      "category": "defibrillator",
+      "name": "Foyer Le Villardois - 118 impasse des Jardins - Foyer Le Villardois",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.006817,
+        "lon": 5.027876
+      },
+      "distance_m": 620,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "118 impasse des Jardins 01330 VILLARS-LES-DOMBES"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "Bâtiment 3 - RDC - 1er bureau à droite - 7j/7 24h/24"
+        },
+        {
+          "label": "Horaires",
+          "value": "24h/24"
+        },
+        {
+          "label": "Jours",
+          "value": "7j/7"
+        }
+      ],
+      "sources": [
+        "geodae:133388"
+      ],
+      "updated_at": "2026-02-05"
+    },
+    {
+      "id": "geodae:134223",
+      "category": "defibrillator",
+      "name": "ESAT Les Dombes - 118 impasse des Jardins - ESAT Les Dombes",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.00724,
+        "lon": 5.027607
+      },
+      "distance_m": 671,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "118 impasse des Jardins 01330 VILLARS-LES-DOMBES"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "Atelier porte Est à droite photocopieur - L au V 9h/12h 13h15/16h"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi, mardi, mercredi, jeudi, vendredi"
+        }
+      ],
+      "sources": [
+        "geodae:134223"
+      ],
+      "updated_at": "2026-02-05"
+    },
+    {
+      "id": "geodae:213344",
+      "category": "defibrillator",
+      "name": "DAE G3 - PARC DES OISEAUX -RD 1083",
+      "relation": "in_commune",
+      "position": {
+        "lat": 45.9924,
+        "lon": 5.02677
+      },
+      "distance_m": 1028,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "1083 ROUTE DEPARTEMENTALE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Accès",
+          "value": "Intérieur"
+        },
+        {
+          "label": "Emplacement",
+          "value": "DAE disponible contacter Emmanuel VISENTIN : 06 24 43 42 43 - RESPONSABLE DE SITE : 06 14 33 12 96"
+        },
+        {
+          "label": "Horaires",
+          "value": "heures ouvrables"
+        },
+        {
+          "label": "Jours",
+          "value": "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche, jours fériés"
+        }
+      ],
+      "sources": [
+        "geodae:213344"
+      ],
+      "updated_at": "2023-08-16"
+    },
+    {
+      "id": "finess:010000099",
+      "category": "hospital",
+      "name": "CH DE MEXIMIEUX",
+      "relation": "nearest",
+      "position": {
+        "lat": 45.906409,
+        "lon": 5.194001
+      },
+      "distance_m": 16514,
+      "commune": {
+        "insee": "01244",
+        "name": "MEXIMIEUX"
+      },
+      "address": {
+        "label": "13 AVENUE DU DOCTEUR BOYER, 01800 MEXIMIEUX"
+      },
+      "contact": {
+        "phone": "+33474610177",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "CENTRE HOSPITALIER DE MEXIMIEUX"
+        }
+      ],
+      "sources": [
+        "finess:010000099",
+        "osm:way/317408579"
+      ],
+      "updated_at": "2020-06-30"
+    },
+    {
+      "id": "finess:010010593",
+      "category": "health_center",
+      "name": "CENTRE D'ECHOGRAPHIE DU MARAIS",
+      "relation": "nearest",
+      "position": {
+        "lat": 45.851254,
+        "lon": 5.055784
+      },
+      "distance_m": 16816,
+      "commune": {
+        "insee": "01262",
+        "name": "MONTLUEL"
+      },
+      "address": {
+        "label": "205 GRANDE RUE, 01120 MONTLUEL"
+      },
+      "contact": {
+        "phone": "+33478550057",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [],
+      "sources": [
+        "finess:010010593"
+      ],
+      "updated_at": "2023-11-29"
+    },
+    {
+      "id": "finess:010789428",
+      "category": "health_center",
+      "name": "CENTRE DE SANTE MFASSAM MONTLUEL",
+      "relation": "nearest",
+      "position": {
+        "lat": 45.848797,
+        "lon": 5.046903
+      },
+      "distance_m": 17020,
+      "commune": {
+        "insee": "01262",
+        "name": "MONTLUEL"
+      },
+      "address": {
+        "label": "450 FAUBOURG DE LYON, 01120 MONTLUEL"
+      },
+      "contact": {
+        "phone": "+33478062412",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "MUTUALITE FRANCAISE AIN SSAM"
+        }
+      ],
+      "sources": [
+        "finess:010789428"
+      ],
+      "updated_at": "2024-10-28"
+    },
+    {
+      "id": "finess:010007904",
+      "category": "hospital",
+      "name": "HDJ ADULTES MONTLUEL",
+      "relation": "nearest",
+      "position": {
+        "lat": 45.849322,
+        "lon": 5.057467
+      },
+      "distance_m": 17045,
+      "commune": {
+        "insee": "01262",
+        "name": "MONTLUEL"
+      },
+      "address": {
+        "label": "284 AVENUE DE LA GARE, 01120 MONTLUEL"
+      },
+      "contact": {
+        "phone": "+33474522440",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "ORGANISATION POUR LA SANTE ET L'ACCUEIL (ORSAC)"
+        }
+      ],
+      "sources": [
+        "finess:010007904"
+      ],
+      "updated_at": "2020-01-06"
+    },
+    {
+      "id": "finess:690000054",
+      "category": "hospital",
+      "name": "CH DE NEUVILLE SUR SAONE",
+      "relation": "nearest",
+      "position": {
+        "lat": 45.867676,
+        "lon": 4.848107
+      },
+      "distance_m": 20458,
+      "commune": {
+        "insee": "69143",
+        "name": "NEUVILLE SUR SAONE"
+      },
+      "address": {
+        "label": "53 CHEMIN DE PARENTY, 69250 NEUVILLE SUR SAONE"
+      },
+      "contact": {
+        "phone": "+33472001035",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "CENTRE HOSPITALIER DE NEUVILLE ET FONTAINES-SUR-SAONE"
+        }
+      ],
+      "sources": [
+        "finess:690000054",
+        "osm:way/147681783"
+      ],
+      "updated_at": "2020-02-04"
+    },
+    {
+      "id": "finess:690040209",
+      "category": "health_center",
+      "name": "CENTRE DE SANTE NEUVILLE-SUR-SAONE",
+      "relation": "nearest",
+      "position": {
+        "lat": 45.867651,
+        "lon": 4.846883
+      },
+      "distance_m": 20525,
+      "commune": {
+        "insee": "69143",
+        "name": "NEUVILLE SUR SAONE"
+      },
+      "address": {
+        "label": "53 CHEMIN DE PARENTY, 69250 NEUVILLE SUR SAONE"
+      },
+      "contact": {
+        "phone": "+33472107265",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "CENTRE HOSPITALIER DE NEUVILLE ET FONTAINES-SUR-SAONE"
+        }
+      ],
+      "sources": [
+        "finess:690040209"
+      ],
+      "updated_at": "2015-08-21"
+    },
+    {
+      "id": "rpps:810002949823@01330",
+      "category": "doctor",
+      "name": "ANNICK ALLAIN",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "37 Rue IVAN AVOSCAN 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980104",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Qualifié en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810002949823@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810101921269@01330",
+      "category": "doctor",
+      "name": "Charlotte RODRIGUEZ",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "313 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810101921269@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810101217916@01330",
+      "category": "doctor",
+      "name": "ERIKA TOURNIER-OUDIN",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "313 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810101217916@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810100471480@01330",
+      "category": "doctor",
+      "name": "FRANCIS REGNAULT",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "416 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980442",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810100471480@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810100959906@01330",
+      "category": "doctor",
+      "name": "JANE PARIOT",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "313 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810100959906@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810100972081@01330",
+      "category": "doctor",
+      "name": "JESSICA PIVIDORI",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "416 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980442",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810100972081@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810100683555@01330",
+      "category": "doctor",
+      "name": "MAUD JACQUE",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "416 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980442",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810100683555@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810002952660@01330",
+      "category": "doctor",
+      "name": "MICHEL DANJOU",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "42 RUE GILBERT BOULLIER 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474983939",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810002952660@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810100904506@01330",
+      "category": "doctor",
+      "name": "PAULINE PROTON",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "313 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810100904506@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810100167542@01330",
+      "category": "doctor",
+      "name": "SOPHIE EDO FOREST",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "313 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810100167542@01330"
+      ],
+      "updated_at": null
+    },
+    {
+      "id": "rpps:810100434462@01330",
+      "category": "doctor",
+      "name": "THIBAUD ROCHE",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "416 AVENUE CHARLES DE GAULLE 01330 Villars-les-Dombes"
+      },
+      "contact": {
+        "phone": "+33474980442",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Profession",
+          "value": "Médecin"
+        },
+        {
+          "label": "Spécialité",
+          "value": "Spécialiste en Médecine Générale"
+        }
+      ],
+      "sources": [
+        "rpps:810100434462@01330"
+      ],
+      "updated_at": null
+    }
+  ]
+}

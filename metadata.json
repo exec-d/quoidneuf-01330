@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "commune": {
+    "insee": "01443",
+    "name": "Villars-les-Dombes",
+    "postal_codes": [
+      "01330"
+    ],
+    "population": 5163,
+    "center": {
+      "lat": 46.0014,
+      "lon": 5.0298
+    },
+    "bbox": [
+      5.008261,
+      45.965513,
+      5.080435,
+      46.034548
+    ]
+  },
+  "modules": [
+    {
+      "id": "health",
+      "label": "Santé",
+      "file": "health.json"
+    },
+    {
+      "id": "public_services",
+      "label": "Services publics",
+      "file": "public_services.json"
+    }
+  ],
+  "generated_at": "2026-08-06T14:20:10Z",
+  "generator_version": "0.1.0",
+  "sources": [
+    {
+      "id": "dila",
+      "label": "Annuaire de l'administration (DILA)",
+      "licence": "etalab-2.0",
+      "url": "https://www.data.gouv.fr/datasets/service-public-gouv-fr-annuaire-de-ladministration-base-de-donnees-locales",
+      "retrieved_at": "2026-08-06T14:19:48Z",
+      "status": "ok"
+    },
+    {
+      "id": "finess",
+      "label": "FINESS (Agence du Numérique en Santé)",
+      "licence": "etalab-2.0",
+      "url": "https://www.data.gouv.fr/datasets/finess-structures-1",
+      "retrieved_at": "2026-08-06T14:19:48Z",
+      "status": "ok"
+    },
+    {
+      "id": "rpps",
+      "label": "Annuaire Santé / RPPS (Agence du Numérique en Santé)",
+      "licence": "etalab-2.0",
+      "url": "https://www.data.gouv.fr/datasets/annuaire-sante-extractions-des-donnees-en-libre-acces-des-professionnels-intervenant-dans-le-systeme-de-sante-rpps",
+      "retrieved_at": "2026-08-06T14:19:48Z",
+      "status": "ok"
+    },
+    {
+      "id": "geodae",
+      "label": "Géo'DAE — Base nationale des défibrillateurs",
+      "licence": "etalab-2.0",
+      "url": "https://www.data.gouv.fr/datasets/geodae-base-nationale-des-defibrillateurs",
+      "retrieved_at": "2026-08-06T14:19:48Z",
+      "status": "ok"
+    },
+    {
+      "id": "laposte",
+      "label": "Réseau La Poste",
+      "licence": "etalab-2.0",
+      "url": "https://www.data.gouv.fr/datasets/liste-des-bureaux-de-poste-agences-postales-et-relais-poste",
+      "retrieved_at": "2026-08-06T14:19:48Z",
+      "status": "ok"
+    },
+    {
+      "id": "osm",
+      "label": "OpenStreetMap",
+      "licence": "odbl-1.0",
+      "url": "https://www.openstreetmap.org/copyright",
+      "retrieved_at": "2026-08-06T14:19:48Z",
+      "status": "ok"
+    }
+  ]
+}
