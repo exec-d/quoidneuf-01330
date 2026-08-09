@@ -32,11 +32,8 @@
     {
       "id": "health_center",
       "label": "Centres de santé",
-      "count": 0,
-      "nearest": {
-        "distance_m": 16816,
-        "commune": "MONTLUEL"
-      }
+      "count": 2,
+      "nearest": null
     },
     {
       "id": "defibrillator",
@@ -252,6 +249,35 @@
         "geodae:154010"
       ],
       "updated_at": "2023-04-11"
+    },
+    {
+      "id": "finess:010011690",
+      "category": "health_center",
+      "name": "MAISON DE SANTE COEUR DES DOMBES",
+      "relation": "in_commune",
+      "position": {
+        "lat": 46.002395,
+        "lon": 5.028651
+      },
+      "distance_m": 142,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "16 RUE DU MOYEN AGE, 01330 VILLARS LES DOMBES"
+      },
+      "contact": {
+        "phone": "+33474981000",
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [],
+      "sources": [
+        "finess:010011690"
+      ],
+      "updated_at": "2020-12-28"
     },
     {
       "id": "geodae:4737",
@@ -1295,69 +1321,6 @@
       "updated_at": "2020-06-30"
     },
     {
-      "id": "finess:010010593",
-      "category": "health_center",
-      "name": "CENTRE D'ECHOGRAPHIE DU MARAIS",
-      "relation": "nearest",
-      "position": {
-        "lat": 45.851254,
-        "lon": 5.055784
-      },
-      "distance_m": 16816,
-      "commune": {
-        "insee": "01262",
-        "name": "MONTLUEL"
-      },
-      "address": {
-        "label": "205 GRANDE RUE, 01120 MONTLUEL"
-      },
-      "contact": {
-        "phone": "+33478550057",
-        "email": null,
-        "website": null
-      },
-      "opening_hours": null,
-      "details": [],
-      "sources": [
-        "finess:010010593"
-      ],
-      "updated_at": "2023-11-29"
-    },
-    {
-      "id": "finess:010789428",
-      "category": "health_center",
-      "name": "CENTRE DE SANTE MFASSAM MONTLUEL",
-      "relation": "nearest",
-      "position": {
-        "lat": 45.848797,
-        "lon": 5.046903
-      },
-      "distance_m": 17020,
-      "commune": {
-        "insee": "01262",
-        "name": "MONTLUEL"
-      },
-      "address": {
-        "label": "450 FAUBOURG DE LYON, 01120 MONTLUEL"
-      },
-      "contact": {
-        "phone": "+33478062412",
-        "email": null,
-        "website": null
-      },
-      "opening_hours": null,
-      "details": [
-        {
-          "label": "Raison sociale",
-          "value": "MUTUALITE FRANCAISE AIN SSAM"
-        }
-      ],
-      "sources": [
-        "finess:010789428"
-      ],
-      "updated_at": "2024-10-28"
-    },
-    {
       "id": "finess:010007904",
       "category": "hospital",
       "name": "HDJ ADULTES MONTLUEL",
@@ -1425,40 +1388,6 @@
         "osm:way/147681783"
       ],
       "updated_at": "2020-02-04"
-    },
-    {
-      "id": "finess:690040209",
-      "category": "health_center",
-      "name": "CENTRE DE SANTE NEUVILLE-SUR-SAONE",
-      "relation": "nearest",
-      "position": {
-        "lat": 45.867651,
-        "lon": 4.846883
-      },
-      "distance_m": 20525,
-      "commune": {
-        "insee": "69143",
-        "name": "NEUVILLE SUR SAONE"
-      },
-      "address": {
-        "label": "53 CHEMIN DE PARENTY, 69250 NEUVILLE SUR SAONE"
-      },
-      "contact": {
-        "phone": "+33472107265",
-        "email": null,
-        "website": null
-      },
-      "opening_hours": null,
-      "details": [
-        {
-          "label": "Raison sociale",
-          "value": "CENTRE HOSPITALIER DE NEUVILLE ET FONTAINES-SUR-SAONE"
-        }
-      ],
-      "sources": [
-        "finess:690040209"
-      ],
-      "updated_at": "2015-08-21"
     },
     {
       "id": "rpps:810002949823@01330",
@@ -1669,6 +1598,37 @@
         "rpps:810100972081@01330"
       ],
       "updated_at": null
+    },
+    {
+      "id": "finess:010013639",
+      "category": "health_center",
+      "name": "MAISON MEDICALE DE GARDE VILLARS",
+      "relation": "in_commune",
+      "position": null,
+      "distance_m": null,
+      "commune": {
+        "insee": "01443",
+        "name": "Villars-les-Dombes"
+      },
+      "address": {
+        "label": "313 AVENUE CHARLES DE GAULLE, 01330 VILLARS LES DOMBES"
+      },
+      "contact": {
+        "phone": null,
+        "email": null,
+        "website": null
+      },
+      "opening_hours": null,
+      "details": [
+        {
+          "label": "Raison sociale",
+          "value": "MAISON MEDICALE DE GARDE VILLARS-LES-DOMBES"
+        }
+      ],
+      "sources": [
+        "finess:010013639"
+      ],
+      "updated_at": "2025-07-10"
     },
     {
       "id": "rpps:810100683555@01330",
