@@ -507,19 +507,79 @@
         "email": null,
         "website": null
       },
-      "opening_hours": null,
+      "opening_hours": {
+        "weekly": [
+          {
+            "day": 1,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 2,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 3,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 4,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 5,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 6,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 7,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          }
+        ],
+        "raw": "{7j/7} {24h/24}",
+        "source": "geodae"
+      },
       "details": [
         {
           "label": "Accès",
           "value": "Extérieur"
-        },
-        {
-          "label": "Horaires",
-          "value": "24h/24"
-        },
-        {
-          "label": "Jours",
-          "value": "7j/7"
         }
       ],
       "sources": [
@@ -892,19 +952,79 @@
         "email": null,
         "website": null
       },
-      "opening_hours": null,
+      "opening_hours": {
+        "weekly": [
+          {
+            "day": 1,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 2,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 3,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 4,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 5,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 6,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 7,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          }
+        ],
+        "raw": "{7j/7} {24h/24}",
+        "source": "geodae"
+      },
       "details": [
         {
           "label": "Accès",
           "value": "Intérieur"
-        },
-        {
-          "label": "Horaires",
-          "value": "24h/24"
-        },
-        {
-          "label": "Jours",
-          "value": "7j/7"
         },
         {
           "label": "Étage",
@@ -938,19 +1058,79 @@
         "email": null,
         "website": null
       },
-      "opening_hours": null,
+      "opening_hours": {
+        "weekly": [
+          {
+            "day": 1,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 2,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 3,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 4,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 5,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 6,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 7,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          }
+        ],
+        "raw": "{7j/7} {24h/24}",
+        "source": "geodae"
+      },
       "details": [
         {
           "label": "Accès",
           "value": "Extérieur"
-        },
-        {
-          "label": "Horaires",
-          "value": "24h/24"
-        },
-        {
-          "label": "Jours",
-          "value": "7j/7"
         }
       ],
       "sources": [
@@ -1169,7 +1349,75 @@
         "email": null,
         "website": null
       },
-      "opening_hours": null,
+      "opening_hours": {
+        "weekly": [
+          {
+            "day": 1,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 2,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 3,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 4,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 5,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 6,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          },
+          {
+            "day": 7,
+            "ranges": [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          }
+        ],
+        "raw": "{7j/7} {24h/24}",
+        "source": "geodae"
+      },
       "details": [
         {
           "label": "Accès",
@@ -1178,14 +1426,6 @@
         {
           "label": "Emplacement",
           "value": "Bâtiment 3 - RDC - 1er bureau à droite - 7j/7 24h/24"
-        },
-        {
-          "label": "Horaires",
-          "value": "24h/24"
-        },
-        {
-          "label": "Jours",
-          "value": "7j/7"
         }
       ],
       "sources": [
