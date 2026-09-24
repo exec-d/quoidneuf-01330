@@ -70,14 +70,6 @@
         {
           "label": "Accès",
           "value": "Intérieur"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi, mardi, mercredi, jeudi, vendredi"
         }
       ],
       "sources": [
@@ -189,14 +181,6 @@
         {
           "label": "Emplacement",
           "value": "Accueil - L 13h/16h , Me + J 8h30/12h 13h/16h"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi, mercredi, jeudi"
         }
       ],
       "sources": [
@@ -235,14 +219,6 @@
         {
           "label": "Emplacement",
           "value": "Face à la porte d'entrée"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi, mardi, mercredi, jeudi, vendredi"
         }
       ],
       "sources": [
@@ -348,14 +324,6 @@
         {
           "label": "Emplacement",
           "value": "Dans le hangar"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi, mardi, mercredi, jeudi, vendredi"
         }
       ],
       "sources": [
@@ -390,14 +358,6 @@
         {
           "label": "Accès",
           "value": "Intérieur"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi, mardi, mercredi, jeudi, vendredi"
         }
       ],
       "sources": [
@@ -470,14 +430,6 @@
         {
           "label": "Accès",
           "value": "Extérieur"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures de nuit, 24h/24"
-        },
-        {
-          "label": "Jours",
-          "value": "7j/7"
         }
       ],
       "sources": [
@@ -507,75 +459,7 @@
         "email": null,
         "website": null
       },
-      "opening_hours": {
-        "weekly": [
-          {
-            "day": 1,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 2,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 3,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 4,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 5,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 6,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 7,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          }
-        ],
-        "raw": "{7j/7} {24h/24}",
-        "source": "geodae"
-      },
+      "opening_hours": null,
       "details": [
         {
           "label": "Accès",
@@ -733,14 +617,6 @@
         {
           "label": "Accès",
           "value": "Intérieur"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi, mardi, mercredi, jeudi, vendredi"
         }
       ],
       "sources": [
@@ -952,75 +828,7 @@
         "email": null,
         "website": null
       },
-      "opening_hours": {
-        "weekly": [
-          {
-            "day": 1,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 2,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 3,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 4,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 5,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 6,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 7,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          }
-        ],
-        "raw": "{7j/7} {24h/24}",
-        "source": "geodae"
-      },
+      "opening_hours": null,
       "details": [
         {
           "label": "Accès",
@@ -1058,75 +866,7 @@
         "email": null,
         "website": null
       },
-      "opening_hours": {
-        "weekly": [
-          {
-            "day": 1,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 2,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 3,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 4,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 5,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 6,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 7,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          }
-        ],
-        "raw": "{7j/7} {24h/24}",
-        "source": "geodae"
-      },
+      "opening_hours": null,
       "details": [
         {
           "label": "Accès",
@@ -1274,14 +1014,6 @@
         {
           "label": "Emplacement",
           "value": "au rez-de-chaussée du foyer d'hébergement"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi"
         }
       ],
       "sources": [
@@ -1349,75 +1081,7 @@
         "email": null,
         "website": null
       },
-      "opening_hours": {
-        "weekly": [
-          {
-            "day": 1,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 2,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 3,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 4,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 5,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 6,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          },
-          {
-            "day": 7,
-            "ranges": [
-              [
-                "00:00",
-                "23:59"
-              ]
-            ]
-          }
-        ],
-        "raw": "{7j/7} {24h/24}",
-        "source": "geodae"
-      },
+      "opening_hours": null,
       "details": [
         {
           "label": "Accès",
@@ -1464,14 +1128,6 @@
         {
           "label": "Emplacement",
           "value": "Atelier porte Est à droite photocopieur - L au V 9h/12h 13h15/16h"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi, mardi, mercredi, jeudi, vendredi"
         }
       ],
       "sources": [
@@ -1510,14 +1166,6 @@
         {
           "label": "Emplacement",
           "value": "DAE disponible contacter Emmanuel VISENTIN : 06 24 43 42 43 - RESPONSABLE DE SITE : 06 14 33 12 96"
-        },
-        {
-          "label": "Horaires",
-          "value": "heures ouvrables"
-        },
-        {
-          "label": "Jours",
-          "value": "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche, jours fériés"
         }
       ],
       "sources": [
