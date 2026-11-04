@@ -30,7 +30,7 @@
       "file": "public_services.json"
     }
   ],
-  "generated_at": "2026-09-24T09:17:45Z",
+  "generated_at": "2026-11-04T12:04:22Z",
   "generator_version": "0.1.0",
   "sources": [
     {
@@ -38,7 +38,7 @@
       "label": "Annuaire de l'administration (DILA)",
       "licence": "etalab-2.0",
       "url": "https://www.data.gouv.fr/datasets/service-public-gouv-fr-annuaire-de-ladministration-base-de-donnees-locales",
-      "retrieved_at": "2026-09-24T09:16:28Z",
+      "retrieved_at": "2026-11-04T12:02:32Z",
       "status": "ok"
     },
     {
@@ -46,7 +46,7 @@
       "label": "FINESS (Agence du Numérique en Santé)",
       "licence": "etalab-2.0",
       "url": "https://www.data.gouv.fr/datasets/finess-structures-1",
-      "retrieved_at": "2026-09-24T09:16:33Z",
+      "retrieved_at": "2026-11-04T12:02:39Z",
       "status": "ok"
     },
     {
@@ -54,7 +54,7 @@
       "label": "Annuaire Santé / RPPS (Agence du Numérique en Santé)",
       "licence": "etalab-2.0",
       "url": "https://www.data.gouv.fr/datasets/annuaire-sante-extractions-des-donnees-en-libre-acces-des-professionnels-intervenant-dans-le-systeme-de-sante-rpps",
-      "retrieved_at": "2026-09-24T09:17:10Z",
+      "retrieved_at": "2026-11-04T12:03:39Z",
       "status": "ok"
     },
     {
@@ -62,7 +62,7 @@
       "label": "Géo'DAE — Base nationale des défibrillateurs",
       "licence": "etalab-2.0",
       "url": "https://www.data.gouv.fr/datasets/geodae-base-nationale-des-defibrillateurs",
-      "retrieved_at": "2026-09-24T09:17:24Z",
+      "retrieved_at": "2026-11-04T12:04:00Z",
       "status": "ok"
     },
     {
@@ -70,7 +70,7 @@
       "label": "Réseau La Poste",
       "licence": "etalab-2.0",
       "url": "https://www.data.gouv.fr/datasets/liste-des-bureaux-de-poste-agences-postales-et-relais-poste",
-      "retrieved_at": "2026-09-21T09:54:41Z",
+      "retrieved_at": "2026-10-30T10:53:04Z",
       "status": "ok"
     },
     {
@@ -78,7 +78,7 @@
       "label": "OpenStreetMap",
       "licence": "odbl-1.0",
       "url": "https://www.openstreetmap.org/copyright",
-      "retrieved_at": "2026-09-23T09:18:26Z",
+      "retrieved_at": "2026-11-01T11:17:49Z",
       "status": "ok"
     }
   ]

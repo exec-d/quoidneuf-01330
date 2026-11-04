@@ -60,7 +60,7 @@
       "contact": {
         "phone": "+33474980354",
         "email": "mairie@mairie-villars-les-dombes.org",
-        "website": "http://www.villars-les-dombes.fr"
+        "website": "https://www.villars-les-dombes.fr/"
       },
       "opening_hours": {
         "weekly": [
@@ -147,7 +147,7 @@
         "dila:278a8c30-df76-4d69-8eb9-ccec0d00d815",
         "osm:node/2891435088"
       ],
-      "updated_at": "2025-03-06"
+      "updated_at": "2026-11-03"
     },
     {
       "id": "osm:node/2742452680",
